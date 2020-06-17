@@ -1,0 +1,7 @@
+.places{
+    grid-area: places;
+    grid-column: span 4;
+    margin: 0 auto;
+    max-width: 984px;
+    padding-bottom: 12px;
+}

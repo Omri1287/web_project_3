@@ -1,0 +1,14 @@
+@import url(./__item/photo-grid__item.css);
+
+
+.photo-grid{
+    grid-area: photo-grid;
+    max-width: 1184px;
+    padding-bottom: 122px;
+    grid-column: span 4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    box-sizing: border-box;
+    grid-gap: 16px;
+}

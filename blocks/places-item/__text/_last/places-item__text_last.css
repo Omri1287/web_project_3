@@ -1,0 +1,4 @@
+.places-item__text_last{
+    grid-area: places-item__text_last;
+    margin-left: 0;
+}

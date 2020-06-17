@@ -1,18 +1,9 @@
 .lead__title{
-    position: absolute;
-    width: 720px;
-    height: 200px;
-    left: 280px;
-    top: 136px;
-
-    font-family: Inter;
-    font-style: normal;
+    max-width: 720px;
     font-weight: 900;
-    font-size: 96px;
-    line-height: 100px;
-    /* or 104% */
-
+    font-size: 6rem;
+    line-height: 104%;
     text-align: center;
-
-    color: #FFFFFF;
+    margin: 0 auto;
+    padding-bottom: 32px;
 }

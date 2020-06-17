@@ -1,0 +1,6 @@
+.places-item__image{
+    grid-area: places-item__image;
+    grid-column-start: 1;
+    max-width: 460px;
+    max-height: 460px;
+}

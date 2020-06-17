@@ -1,0 +1,10 @@
+.places-item__url{
+    font-size: 0.75rem;
+    line-height: 100%;
+    font-weight: normal;
+    color: #AAAAAA;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    grid-area: places-item__url;
+    grid-column-start: 2;
+}
