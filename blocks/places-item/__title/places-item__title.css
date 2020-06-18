@@ -1,11 +1,33 @@
 .places-item__title{
-    font-size: 4.5rem;
-    line-height: 106%;
+    font-size: 72px;
+    line-height: 76px;
     font-weight: 900;
     font-style: normal;
     max-width: 460px;
-    margin-top: 0;
-    margin-bottom: 46px;
+    margin: 0 40px 48px 0;
     grid-area: places-item__title;
     grid-column-start: 1;
+}
+
+
+@media (max-width: 1024px){
+    .places-item__title{
+        font-size: 72px;
+        line-height: 76px;
+        margin: 0 32px 48px 0;
+    }
+}
+@media (max-width: 768px){
+    .places-item__title{
+        font-size: 42px;
+        line-height: 46px;
+        margin: 0 28px 48px 0;
+    }
+}
+@media (max-width: 320px){
+    .places-item__title{
+        font-size: 32px;
+        line-height: 35px;
+        margin: 0 40px 48px 0;
+    }
 }

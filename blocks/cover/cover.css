@@ -7,9 +7,8 @@
     grid-column: span 4;
     background-image: url("../../images/cover-image.jpg");
     background-size:cover;
-  
-    min-height: 740px;
     max-width: 1184px;
+    min-height: 740px;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -17,10 +16,24 @@
     align-items: center;
     position: relative;
     z-index: 1;
-    padding: 0;
-  
-    margin: 0;
+    margin: 0 48px 92px 48px;
   }
 
+  @media (max-width: 1024px){
+    .cover{
+      margin: 0 0 92px 0;
+    }
+
+}
+@media (max-width: 768px){
+    .cover{
+      margin: 0 0 88px 0;
+    }
+}
+@media (max-width: 320px){
+    .cover{
+      margin: 0 0 64px 0;
+    }
+}
 
 

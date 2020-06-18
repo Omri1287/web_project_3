@@ -1,12 +1,40 @@
 @import url(./__lang-link/header__lang-link.css);
 @import url(./__links/header__links.css);
 
+
 .header{
     grid-area: header;
     padding-left: 148px;
     padding-right: 148px;
+    padding-top: 34px;
+    padding-bottom: 54px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;    
+}
+
+@media (max-width: 1024px){
+    .header{
+        padding-left: 148px;
+        padding-right: 148px;
+        padding-bottom: 50px;
+
+    }
+
+}
+@media (max-width: 768px){
+    .header{
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 50px;
+    }
+}
+@media (max-width: 320px){
+    .header{
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 34px;
+        padding-bottom: 50px;
+    }
 }
