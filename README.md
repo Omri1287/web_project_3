@@ -1,20 +1,10 @@
-# Project 3: From Portland to Portland
+# From Portland to Portland
 
-### Overview
-* Intro
-* Figma
-* Images
+###A webpage using CSS, and HTML with the BEM methodology###
 
-**Intro**
+I have built this webpage using different technologies, such as flexbox nd grid. The webpage is about a coast-to-coast trip of the US. 
+I have made a responsive web design and it should look good on all of the most popular screen sizes, therefor I used media queries. For texts I used "Inter" font family. The CSS classes and files were organized according to the BEM methodology.
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
-
-**Figma**
-
-* [Link to the project on Figma](https://www.figma.com/file/xM9rNsdK4iNcFJmDZho3Aw/Sprint-3%3A-From-Portland-to-Portland-%2F-desktop-%2B-mobile?node-id=500%3A0)
-
-**Images**
-
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Good luck and have fun!
+**Future steps**
+Add different fonts in order to make the web page a more personal touch.
+Add further trips such as the USA one, in different parts of the world.
