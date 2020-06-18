@@ -20,4 +20,5 @@
     "places-item__image places-item__text_first"
     "places-item__image places-item__text_second"
     "places-item__image places-item__text_last";
+    box-sizing: border-box;
 }
