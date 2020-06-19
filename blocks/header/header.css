@@ -5,6 +5,8 @@
 
 .header{
     grid-area: header;
+    grid-template-areas: "logo header__links";
+    grid-template-columns: 2, 1fr;
     padding-left: 148px;
     padding-right: 148px;
     padding-top: 34px;
