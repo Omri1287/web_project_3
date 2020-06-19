@@ -7,18 +7,53 @@
 @import url(./__text/_second/places-item__text_second.css);
 @import url(./__text/_last/places-item__text_last.css);
 @import url(./__image/places-item__image.css);
+@import url(./__paragraph/places-item__paragraph.css);
 
 .places-item{
-    margin-bottom: 80px;
     display: grid;
-    grid-template-columns: repeat(484px, 1fr);
-    grid-template-areas: 
-    "places-item__title places-item__website"
-    "places-item__image places-item__text"
-    "places-item__image places-item__text"
-    "places-item__image places-item__text"
-    "places-item__image places-item__text_first"
-    "places-item__image places-item__text_second"
-    "places-item__image places-item__text_last";
-    box-sizing: border-box;
+    grid-template-rows: 124px 460px;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 80px;
+    max-height: 584px;
+}
+
+.places-item:nth-child(2) {
+    grid-template-rows: 200px 468px;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 80px;
+    max-height: 668px;
+  } 
+  .places-item:nth-child(4) {
+    max-height: 712px;
+    grid-template-rows: 124px 588px;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 80px;
+  }
+
+@media (max-width: 1024px){
+    .places-item{
+        margin: 0 48px 80px 48px;
+        max-width: 928px;
+        max-height: 723px;
+    }
+}
+@media (max-width: 768px){
+    .places-item{
+        margin: 0 24px 88px 24px;
+        max-width: 720px;
+        max-height: 636px;
+    }
+}
+@media (max-width: 320px){
+    .places-item{
+        margin: 0 16px 32px 16px;
+        max-width: 320px;
+        max-height: 923px;
+    }
+    .places-item:nth-child(5) {
+        margin-bottom: 52px;
+        margin: 0 16px 32px 16px;
+        max-width: 320px;
+        max-height: 923px;
+      }
 }

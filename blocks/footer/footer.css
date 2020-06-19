@@ -28,5 +28,7 @@
         padding-right: 136px;
         padding-top: 0;
         padding-bottom: 24px;
+        max-width: 168px;
+        max-height: 198px;
     }
 }

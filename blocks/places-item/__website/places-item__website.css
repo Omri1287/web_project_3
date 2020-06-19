@@ -1,10 +1,10 @@
 .places-item__website{
-    grid-area: places-item__website;
     grid-column-start: 2;
     margin: 30px 28px 48px 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    grid-row-start: 1;
 }
 
 @media (max-width: 1024px){

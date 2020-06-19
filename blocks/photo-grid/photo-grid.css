@@ -4,7 +4,6 @@
 .photo-grid{
     grid-area: photo-grid;
     max-width: 1184px;
-    padding-bottom: 122px;
     grid-column: span 4;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

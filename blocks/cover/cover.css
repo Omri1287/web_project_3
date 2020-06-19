@@ -22,17 +22,21 @@
   @media (max-width: 1024px){
     .cover{
       margin: 0 0 92px 0;
+      max-height: 640px;
     }
 
 }
 @media (max-width: 768px){
     .cover{
       margin: 0 0 88px 0;
+      max-height: 480px;
     }
 }
 @media (max-width: 320px){
     .cover{
       margin: 0 0 64px 0;
+      max-width: 320px;
+      max-height: 200px;
     }
 }
 

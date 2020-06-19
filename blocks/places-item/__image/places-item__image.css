@@ -1,11 +1,12 @@
 .places-item__image{
-    grid-area: places-item__image;
     grid-column-start: 1;
     max-width: 460px;
     max-height: 460px;
     margin-top: 0;
     margin-right: 40px;
     margin-left: 0;
+    margin-bottom: 0;
+    grid-row-start: 2;
 }
 
 @media (max-width: 1024px){
@@ -13,6 +14,8 @@
         margin-top: 0;
         margin-right: 32px;
         margin-left: 0;
+        max-width: 440px;
+
     }
 }
 @media (max-width: 768px){
@@ -20,6 +23,8 @@
         margin-top: 0;
         margin-right: 28px;
         margin-left: 0;
+        max-width: 340px;
+
     }
 }
 @media (max-width: 320px){
@@ -27,5 +32,8 @@
         margin-top: 0;
         margin-right: 32px;
         margin-left: 0;
+        max-width: 320px;
+        max-height: 320px;
+
     }
 }
