@@ -41,5 +41,7 @@
         padding-right: 16px;
         padding-top: 34px;
         padding-bottom: 50px;
+        max-width: 288px;
+        max-height: 36px;
     }
 }
