@@ -11,8 +11,3 @@
     margin: 0 auto;
     max-width: 1280px;
 }
-@media (max-width: 320px){
-    .content{
-        max-width: 320px;
-    }
-}
