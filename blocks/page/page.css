@@ -9,3 +9,9 @@
     background-color: #2A2C2F;
     color: white;
 }
+
+@media (max-width: 320px){
+    .page{
+        max-width: 320px;
+    }
+}
