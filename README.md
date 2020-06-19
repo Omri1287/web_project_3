@@ -8,3 +8,6 @@ I have made a responsive web design and it should look good on all of the most p
 ## Future steps
 * Add different fonts in order to make the web page a more personal touch.
 * Add further trips such as the USA one, in different parts of the world.
+
+### Link to the page
+https://omri1287.github.io/web_project_3/
