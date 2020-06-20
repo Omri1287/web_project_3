@@ -8,7 +8,7 @@
     background-image: url("../../images/cover-image.jpg");
     background-size:cover;
     max-width: 1184px;
-    min-height: 740px;
+    max-height: 740px;
     color: #fff;
     display: flex;
     flex-direction: column;

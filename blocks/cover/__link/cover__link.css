@@ -13,10 +13,18 @@
   left: 0;
   transition: 0.3s;
   z-index: -1;
-
 }
 
 .cover__link:hover::before {
   opacity: 0.8;
+}
+
+@media (max-width: 320px){
+  .cover__link{
+    max-height: 200px;
+  }
+  .cover__link::before{
+    max-height: 200px;
+  }
 }
  

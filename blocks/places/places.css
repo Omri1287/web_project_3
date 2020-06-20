@@ -5,3 +5,10 @@
     max-width: 984px;
     padding-bottom: 12px;
 }
+@media (max-width: 320px){
+    .places{
+        max-width: 320px;
+        margin-bottom: 64px;
+        padding-bottom: 0;
+    }
+}
