@@ -32,8 +32,9 @@
   .places-item:nth-child(5) {
     margin-bottom: 52px;
     margin: 0 16px 32px 16px;
-    max-width: 320px;
-    max-height: 923px;
+    max-height: 584px;
+    grid-template-rows: 124px 460px;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -42,18 +43,73 @@
         margin: 0 48px 80px 48px;
         max-width: 928px;
         max-height: 723px;
+        grid-template-rows: 200px 440px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .places-item:nth-child(2){
+        margin: 0 48px 80px 48px;
+        max-width: 928px;
+        max-height: 723px;
+        grid-template-rows: 124px 528px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .places-item:nth-child(4){
+        margin: 0 48px 80px 48px;
+        max-width: 928px;
+        max-height: 723px;
+        grid-template-rows: 124px 588px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .places-item:nth-child(5){
+        margin: 0 48px 80px 48px;
+        max-width: 928px;
+        max-height: 723px;
+        grid-template-rows: 124px 440px;
+        grid-template-columns: 1fr 1fr;
     }
 }
 @media (max-width: 768px){
     .places-item{
-        margin: 0 24px 88px 24px;
+        margin: 0 24px 72px 24px;
+        padding-bottom: 72px;
         max-width: 720px;
         max-height: 636px;
+        grid-template-rows: 94px 482px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .places-item:nth-child(2){
+        margin: 0 24px 72px 24px;
+        max-width: 720px;
+        max-height: 708px;
+        grid-template-rows: 94px 614px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .places-item:nth-child(3){
+        margin: 0 24px 72px 24px;
+        max-width: 720px;
+        max-height: 636px;
+        grid-template-rows: 94px 469px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .places-item:nth-child(4){
+        margin: 0 24px 72px 24px;
+        max-width: 720px;
+        max-height: 734px;
+        grid-template-rows: 94px 640px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .places-item:nth-child(5){
+        margin: 0 24px 88px 24px;
+        max-width: 720px;
+        max-height: 648px;
+        grid-template-rows: 94px 446px;
+        grid-template-columns: 1fr 1fr;
     }
 }
 @media (max-width: 320px){
     .places-item{
         margin: 0 0 48px 0;
+        padding-bottom: 0;
         max-width: 320px;
         max-height:957px;
         display: flex;
@@ -82,7 +138,7 @@
         flex-direction: column;
     }
     .places-item:nth-child(5){
-        margin: 0 0 48px 0;
+        margin: 0 0 0 0;
         max-width: 320px;
         max-height: 1011px;
         display: flex;

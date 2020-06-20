@@ -22,5 +22,9 @@
         line-height: 26px;
         max-width: 288px;
     }
+    .places-item__text:nth-child(5){
+        max-width: 456px;
+        max-height: 440px;
+    }
 
 }

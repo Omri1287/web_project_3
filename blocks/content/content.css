@@ -11,6 +11,23 @@
     margin: 0 auto;
     max-width: 1280px;
 }
+}
+@media (max-width: 1024px){
+    .content{
+        max-width: 1024px;
+        grid-template-areas: 
+        "lead lead lead lead" 
+        "photo-grid photo-grid photo-grid . "
+        ". places places ."
+        "cover cover cover cover";
+    }
+}
+}
+@media (max-width: 768px){
+    .content{
+        max-width: 768px;
+    }
+}
 @media (max-width: 320px){
     .content{
         max-width: 320px;
