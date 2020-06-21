@@ -1,0 +1,22 @@
+.page{
+    display: grid;
+    grid-template-areas: 
+    "header header header header"
+    "content content content content"
+    "footer footer footer footer";
+    margin: 0 auto;
+    font-family: "Inter", Arial, sans-serif;
+    background-color: #2A2C2F;
+    color: white;
+}
+
+}
+@media (max-width: 320px){
+    .page{
+        font-size: 1rem;
+        line-height: 162%;
+        display: block;
+        text-align: left;
+        width: 100vw;
+    }
+}

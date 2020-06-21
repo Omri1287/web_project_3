@@ -4,24 +4,6 @@
 }
 
 
-.places-item__paragraph:nth-child(3) {
-    margin-bottom: 0;
-}
-
-@media (max-width: 1024px){
-    .places-item__paragraph{
-        max-width: 456px;
-    }
-    .places-item__paragraph:nth-child(5){
-        max-height: 440px;
-    }
-}
-
-@media (max-width: 320px){
-    .places-item__paragraph:nth-child(3){
-        margin-bottom: 34px;
-    }
-}
 @media (max-width: 320px){
     .places-item__paragraph{
         margin-left: 0;
@@ -32,7 +14,4 @@
         line-height: 26px;
         
     }
-    .places-item__paragraph:nth-child(3){
-        margin-bottom: 0;
-
 }

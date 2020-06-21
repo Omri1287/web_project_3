@@ -4,20 +4,20 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     font-weight: 400;
-    margin: 0 801px 0 0;
+    margin: 0 0 0 0;
 }
 @media (max-width: 1024px){
     .lead__caption{
-        margin: 0 745px 0 0;
+        margin: 0 0 0 0;
     }
 }
 @media (max-width: 768px){
     .lead__caption{
-        margin: 0 561px 0 24px;
+        margin: 0 0 0 24px;
     }
 }
 @media (max-width: 320px){
     .lead__caption{
-        margin: 0 121px 16px 0;
+        margin: 0 0 0 16px;
     }
 }

@@ -1,0 +1,43 @@
+@import url(./__title/cover__title.css);
+@import url(./__link/cover__link.css);
+@import url(./__subtitle/cover__subtitle.css);
+
+.cover{
+    grid-area: cover;
+    grid-column: span 4;
+    background-image: url("../../images/cover-image.jpg");
+    background-size:cover;
+    max-width: 1184px;
+    max-height: 740px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    margin: 0 48px 92px 48px;
+  }
+
+  @media (max-width: 1024px){
+    .cover{
+      margin: 0 0 92px 0;
+      max-height: 640px;
+    }
+
+}
+@media (max-width: 768px){
+    .cover{
+      margin: 0 0 88px 0;
+      max-height: 480px;
+    }
+}
+@media (max-width: 320px){
+    .cover{
+      margin: 0 0 64px 0;
+      max-width: 320px;
+      max-height: 200px;
+    }
+}
+
+

@@ -8,7 +8,7 @@
     line-height: 167%;
     grid-column-start: 2;
     margin-top: 0;
-    grid-row-start: 2;
+    
 }
 
 
@@ -21,10 +21,11 @@
         font-size: 16px;
         line-height: 26px;
         max-width: 288px;
+        grid-column-start: 1;
     }
-    .places-item__text:nth-child(5){
+    /*.places-item__text:nth-child(5){
         max-width: 456px;
         max-height: 440px;
-    }
+    }*/
 
 }

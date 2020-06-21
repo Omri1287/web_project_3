@@ -1,0 +1,13 @@
+.places-item__link{
+    text-decoration-line: underline;
+    line-height: 122%;
+    font-size: 1.125rem;
+    font-weight: normal;
+    grid-area: places-item__link;
+    grid-column-start: 2;
+    transition: opacity linear 0.2s;
+    color: #ffffff;
+}
+.places-item__link:hover {
+    opacity: 0.8;
+  }
