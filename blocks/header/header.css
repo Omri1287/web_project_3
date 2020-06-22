@@ -7,11 +7,12 @@
 
 .header{
     grid-area: header;
-    grid-template-columns: 2, 1fr;
-    padding-left: 148px;
-    padding-right: 148px;
-    padding-top: 34px;
+    grid-template-columns: 1fr 1fr;
     padding-bottom: 58px;  
+    padding-top: 34px;
+    max-width: 100%;
+    width: 984px;
+    margin: 0 auto;
 }
 
 @media (max-width: 1024px){
