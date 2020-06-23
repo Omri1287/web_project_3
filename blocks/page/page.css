@@ -12,7 +12,8 @@
 
 @media (max-width: 1024px){
     .page{
-        width: 100vw;
+        max-width: 100%;
+        width: 1024px;
     }
 }
 @media (max-width: 768px){
