@@ -14,17 +14,28 @@
 
 @media (max-width: 1024px){
     .content{
-        max-width: 100%;
+        max-width:1024px ;
+        grid-area: content;
+
     }
 }
 
 @media (max-width: 768px){
     .content{
-        max-width: 100%;
+        grid-template-areas:
+        'lead lead'
+        'intro intro'
+        'photo-grid photo-grid'
+        'places places'
+        'cover cover';
+        grid-template-columns: 1fr 1fr;
+        max-width: 768px;
+        margin: 0 auto;
     }
 }
 @media (max-width: 320px){
     .content{
-        max-width: 100%;
+        max-width: 320px;
+        grid-area: content;
     }
 }
